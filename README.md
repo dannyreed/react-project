@@ -21,6 +21,8 @@ You can config this project with
 
 You will use `npm start` to run locally, not dev_appserver.
 
+`gcloud app deploy` should get your app live once gcloud CLI is properly configured.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
