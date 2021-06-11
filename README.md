@@ -1,3 +1,26 @@
+# About this App
+It's being developed into a resume website as practice with React JS.
+
+# Setup and where things are
+You will want the gcloud CLI installed first along with Node (npx).
+
+Git will be used to interact with this repo. You can clone into it with:
+
+### `git clone ssh://dreed3d3@gmail.com@source.developers.google.com:2022/p/danny-react-resume/r/danny-react-resume-repo`
+
+Add remote with:
+
+### `git remote add google ssh://dreed3d3@gmail.com@source.developers.google.com:2022/p/danny-react-resume/r/danny-react-resume-repo`
+
+Commit changes locally and then push with:
+### `git push --all google`
+
+You can config this project with
+
+### `gcloud config set project danny-react-resume`
+
+You will use `npm start` to run locally, not dev_appserver.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
