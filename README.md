@@ -12,6 +12,8 @@ Add remote with:
 
 ### `git remote add google ssh://dreed3d3@gmail.com@source.developers.google.com:2022/p/danny-react-resume/r/danny-react-resume-repo`
 
+If it's your first time in a while, run `gcloud auth login` to get credentials.
+
 Commit changes locally and then push with:
 ### `git push --all google`
 
