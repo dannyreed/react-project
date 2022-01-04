@@ -2,7 +2,7 @@ import React from 'react';
 import App from './App';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TopBar from "./topbar/TopBar";
+import TopBar from "./components/topbar/TopBar";
 
 function Square(props) {
     return (
