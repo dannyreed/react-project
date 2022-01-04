@@ -16,6 +16,8 @@ If it's your first time in a while, run `gcloud auth login` to get credentials.
 
 Commit changes locally and then push with:
 ### `git push --all google`
+or
+git push google local_branch_name
 
 You can config this project with
 
