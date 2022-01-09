@@ -28,6 +28,10 @@ You will use `npm start` to run locally, not dev_appserver.
 
 `gcloud app deploy` should get your app live once gcloud CLI is properly configured.
 
+# Git Feature Branch Workflow
+
+As a best practice, use the [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) and push changes to repo regularly.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
