@@ -1,8 +1,9 @@
 # About this App
-It's being developed into a resume website as practice with React JS.
+It's being developed into a resume website as practice with React JS based on
+Lama Dev's React-Node.js Mern Blog App tutorial [here](https://www.youtube.com/playlist?list=PLj-4DlPRT48lGpll2kC4wOsLj7SEV_lYu).
 
 # Setup and where things are
-You will want the gcloud CLI installed first along with Node (npx).
+You will want the gCloud CLI installed first along with Node (NPX) and Yarn.
 
 Git will be used to interact with this repo. You can clone into it with:
 
@@ -14,12 +15,12 @@ Add remote with:
 
 If it's your first time in a while, run `gcloud auth login` to get credentials.
 
-Commit changes locally and then push with:
+Commit changes locally and then push with (assuming you've added remote branch named 'google'):
 ### `git push --all google`
 or
-git push google local_branch_name
+`git push google local_branch_name`
 
-You can config this project with
+You can config this project with:
 
 ### `gcloud config set project danny-react-resume`
 
@@ -35,7 +36,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
