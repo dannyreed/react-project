@@ -1,8 +1,6 @@
 # About this App
 It's being developed into a resume website as practice with React JS.
 
-Hello
-
 # Setup and where things are
 You will want the gcloud CLI installed first along with Node (npx).
 
