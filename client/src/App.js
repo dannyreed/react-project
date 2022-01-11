@@ -6,6 +6,7 @@ import Login from './pages/login/Login'
 import Settings from './pages/settings/Settings'
 import Write from './pages/write/Write'
 import Single from './pages/single/Single'
+import ScrollToTop from './components/scrolltotop/ScrollToTop'
 import './App.css';
 import {
   BrowserRouter,
@@ -18,6 +19,7 @@ function App() {
   const user = false;
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={user ? <Home/> : <Register />} />
