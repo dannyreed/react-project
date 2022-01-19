@@ -5,15 +5,20 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   const [cats,setCats] = useState([]);
-
   useEffect(()=> {
-    const getCats = async () => {
-      const res = await axios.get("/categories");
+    let getReq = "/api/categories/";
+    if(window.location.hostname == 'localhost') {
+      getReq = "/api/categories/";
+    } else {
+      getReq = "http://api.danny-react-resume.wl.r.appspot.com/api/categories";
+    }
+    const getCats = async (getReq) => {
+      const res = await axios.get('/api/categories/');
       setCats(res.data);
     }
-    getCats();
+    console.log(getReq);
+    getCats(getReq);
   },[]);
-
   return (
     <div className="sidebar">
       <div className="sidebarItem">

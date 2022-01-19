@@ -14,7 +14,7 @@ export default function SinglePost() {
   // In this case, it is location.
   useEffect(() => {
     const getPost = async () => {
-      const res = await axios.get("/posts/" + path);
+      const res = await axios.get("/api/posts/" + path);
       setPost(res.data);
     };
     getPost();
