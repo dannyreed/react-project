@@ -12,12 +12,12 @@ export default function Anagram() {
     let wordOneLen = wordOneArr.length;
     let wordTwoLen = wordTwoArr.length;
 
-    // Anagrams must be the same length
+    // Anagrams must be the same length and can't be zero.
     if (wordOneLen != wordTwoLen || wordOneLen < 1 || wordTwoLen < 1) {
       return false;
     }
 
-    // We will assume anagrams until a match isn't found
+    // We will assume anagram until a match isn't found
     let anagram = true;
 
     // Loop through word one
@@ -32,7 +32,7 @@ export default function Anagram() {
           // Remove matching letter from wordTwoArr
           wordTwoArr.splice(j, 1);
           break;
-        } else if (j== (wordTwoLen -1)) {
+        } else if (j == (wordTwoLen -1)) {
           anagram = false;
         }
       }
@@ -41,9 +41,6 @@ export default function Anagram() {
   }
 
   useEffect(() => {
-    // Update the document title using the browser API
-    //document.title = `You clicked ${count} times`;
-    window.console.log(words);
     let word1 = words['word1'];
     let word2 = words['word2'];
     let anagram = anagramFinder(word1, word2);
