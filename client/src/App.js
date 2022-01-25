@@ -6,6 +6,7 @@ import Login from './pages/login/Login'
 import Settings from './pages/settings/Settings'
 import Write from './pages/write/Write'
 import Single from './pages/single/Single'
+import Anagram from './pages/anagram/Anagram'
 import ScrollToTop from './components/scrolltotop/ScrollToTop'
 import './App.css';
 import {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/settings" element={user ? <Settings/> : <Register />} />
         <Route path="/write" element={user ? <Write/> : <Register />} />
         <Route path="/post/:postId" element={<Single />} />
+        <Route path="/anagram" element={<Anagram />} />
       </Routes>
     </BrowserRouter>
   );
