@@ -23,6 +23,11 @@ client/build
 .env.development.local
 .env.test.local
 .env.production.local
+/*/.env
+/*/.env.local
+/*/.env.development.local
+/*/.env.test.local
+/*/.env.production.local
 
 /client/npm-debug.log*
 /client/yarn-debug.log*
